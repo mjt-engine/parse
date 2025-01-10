@@ -1,6 +1,6 @@
 {
   "name": "@mjt-engine/parse",
-  "version": "2025.1.10-1040",
+  "version": "2025.1.10-1128",
   "sideEffects": false,
   "description": "parsing module",
   "main": "./dist/index.js",
