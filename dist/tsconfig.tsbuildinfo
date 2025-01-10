@@ -1,0 +1,1 @@
+{"root":["../src/boolish.ts","../src/parsers.ts","../src/sseconsumer.ts","../src/createsseparser.ts","../src/createstreamparser.ts","../src/decodessevalue.ts","../src/detectsimplestop.ts","../src/detectstop.ts","../src/detectstopafter.ts","../src/escaperegexp.ts","../src/index.ts","../src/processssepartial.ts","../src/processssepartialuntilnomorestops.ts"],"version":"5.7.3"}

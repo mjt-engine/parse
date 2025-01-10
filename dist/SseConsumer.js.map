@@ -1,0 +1,1 @@
+{"version":3,"file":"SseConsumer.js","sourceRoot":"","sources":["../src/SseConsumer.ts"],"names":[],"mappings":"","sourcesContent":["import type { Boolish } from \"./Boolish\";\n\nexport type SseConsumer<T> = (\n  value: T | undefined,\n  done: boolean\n) => Boolish | Promise<Boolish>;\n"]}

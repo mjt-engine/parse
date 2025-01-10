@@ -1,0 +1,26 @@
+{
+  "name": "@mjt-engine/parse",
+  "version": "2025.1.10-1040",
+  "sideEffects": false,
+  "description": "parsing module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "docs": "typedoc src/index.ts",
+    "build": "tsc -b",
+    "build-docs": "pnpm run build && pnpm run docs",
+    "changelog": "./scripts/changes.sh > CHANGELOG.md",
+    "changelog-version": "pnpm run changelog && ./scripts/version.sh",
+    "publish": "pnpm run build-docs && pnpm run changelog-version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typedoc": "^0.27.6",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@mjt-engine/object": "github:mjt-engine/object"
+  }
+}
